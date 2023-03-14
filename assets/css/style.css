@@ -265,12 +265,14 @@ li {
 
 
 /* === Copyright === */
-.header .copyright {
-    bottom: 20px;
-    position: absolute;
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
 }
 
-.header .copyright span {
+.copyright span {
     color: #d8d8e9;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
@@ -362,6 +364,11 @@ li {
 }
 
 /* === Section Configure === */
+.main-content section {
+    padding: 30px 70px;
+    position: relative;
+    border-bottom: solid 1px #EEE;
+}
 .main-content section {
     padding: 30px 70px;
     position: relative;
