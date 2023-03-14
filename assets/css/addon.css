@@ -6,6 +6,10 @@
     color: #FFF;
 }
 
+.contacts, .skills {
+    margin-bottom: 2rem;
+}
+
 .contacts_item {
     display: flex;
 }
@@ -17,7 +21,6 @@
 .header .skills ul li a {
     color: #FFF;
 }
-
 
 .skills li {
     display: block;
@@ -31,7 +34,6 @@
 
 .works_item {
     display: flex;
-    margin: 1rem;
     padding-bottom: 3rem;
     border-bottom: aliceblue 1px solid;
 }
