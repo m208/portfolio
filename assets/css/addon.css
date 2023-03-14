@@ -32,19 +32,22 @@
 .works_item {
     display: flex;
     margin: 1rem;
-    align-items: center;
+    padding-bottom: 3rem;
+    border-bottom: aliceblue 1px solid;
 }
 
 .work_photo {
+    margin-top: 2rem;
     overflow: hidden;
     width: 300px;
-    height: 145px;
+    height: 200px;
     transition-duration: .25s;
     cursor: pointer;
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 70%);
 }
 
 .work_photo:hover {
-    transform: scale(1.7);
+    transform: scale(1.5);
 }
 
 .work_photo img {
@@ -58,4 +61,8 @@
 
 .work_link {
     margin-bottom: 2rem;
+}
+
+.work_link a:link {
+    text-decoration: none;
 }
