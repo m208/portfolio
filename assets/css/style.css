@@ -363,14 +363,14 @@ li {
 
 /* === Section Configure === */
 .main-content section {
-    padding: 60px 70px;
+    padding: 30px 70px;
     position: relative;
     border-bottom: solid 1px #EEE;
 }
 
 /* === Section Header === */
 .main-content section .section-header {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -504,7 +504,7 @@ li {
 
 .resume .resume-item {
     background: #FFF;   
-    margin-top: 30px;
+    margin-top: 15px;
     max-height: 140px;
     overflow: hidden;
 }
@@ -516,18 +516,21 @@ li {
 }
 
 .resume .resume-item span {
-    color: #666;
+    color: #262424;
     display: block;
-    font-size: 12px;
-    font-weight: 300;
+    font-weight: 600;
     margin: 0 0 10px;
 }
 
 .resume .resume-item p {
     line-height: 20px;
     margin-bottom: 0;
+    margin-left: 10px;
 }
 
+.resume .resume-line {
+    margin: 1.5rem 0;
+}
 
 
 /*-----------------------------------------------------------------*/
