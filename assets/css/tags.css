@@ -1,0 +1,126 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.tag {
+    border-radius: 0.2rem;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 70%);
+}
+
+.ts {
+    background: #234a84;
+}
+
+.ts::before {
+    content: 'TypeScript';
+}
+
+.vue {
+    background: #3eaf7c;
+}
+
+.vue::before {
+    content: 'Vue';
+}
+
+.vuex {
+    background: #42b883;
+}
+
+.vuex::before {
+    content: 'Vuex';
+}
+
+.canvas {
+    background: #e96e2e;
+}
+
+.canvas::before {
+    content: 'HTML Canvas';
+}
+
+.react {
+    background: #61dafb;
+}
+
+.react::before {
+    content: 'React';
+}
+
+.rtk {
+    background: #764abc;
+}
+
+.rtk::before {
+    content: 'Redux Toolkit';
+}
+
+.tailwind {
+    background: #18a9ea;
+}
+
+.tailwind::before {
+    content: 'Tailwind';
+}
+
+.postcss {
+    background: #dd3a0a;
+}
+
+.postcss::before {
+    content: 'PostCSS';
+}
+
+.nofw {
+    background: #858382;
+}
+
+.nofw::before {
+    content: 'No Framework';
+}
+
+.bootstrap {
+    background: #6f10f4;
+}
+
+.bootstrap::before {
+    content: 'Bootstrap CSS';
+}
+
+.js {
+    background: #efd81d;
+    color: black;
+}
+
+.js::before {
+    content: 'JavaScript';
+}
+
+.wp {
+    background: #23282d;
+}
+
+.wp::before {
+    content: 'WordPress';
+}
+
+.php {
+    background: #4f5b93;
+}
+
+.php::before {
+    content: 'PHP';
+}
+
+.jquery {
+    background: #0769ad;
+}
+
+.jquery::before {
+    content: 'JQuery';
+}
