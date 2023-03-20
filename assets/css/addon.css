@@ -1,5 +1,5 @@
-.header h3, h4, h5 {
-    color: #FFF;
+.header h4 {
+    color: #b7b7c7;
 }
 
 .header .contacts ul li a {
@@ -8,22 +8,30 @@
 
 .contacts, .skills {
     margin-bottom: 2rem;
+    border-bottom: #878686 1px solid;
 }
 
 .contacts_item {
     display: flex;
 }
 
-.contacts_item a i{
+.contacts_item a i {
     padding-right: 1em;
+    font-size: large;
 }
 
 .header .skills ul li a {
     color: #FFF;
 }
 
-.skills li {
+.header  .skills li {
     display: block;
+    color: #FFF;
+}
+
+.langs li {
+    display: block;
+    color: #FFF;
 }
 
 .works_list {
@@ -34,15 +42,16 @@
 
 .works_item {
     display: flex;
+    padding-top: 1rem;
 }
 
 .works_item:not(:last-child) {
     padding-bottom: 3rem;
-    border-bottom: aliceblue 1px solid;
+    border-bottom: #eee 1px solid;
 }
 
 .work_photo {
-    margin-top: 2rem;
+    margin-top: 1rem;
     overflow: hidden;
     width: 300px;
     height: 200px;
@@ -65,7 +74,7 @@
 }
 
 .work_link {
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .work_link a:link {
