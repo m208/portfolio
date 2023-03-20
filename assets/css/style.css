@@ -164,7 +164,7 @@ li {
 /*-----------------------------------------------------------------*/
 .header {
     background: #5655da;
-    padding: 46px;
+    padding: 36px;
     /* position: fixed;
     height: 100%; 
     z-index: 5; */
@@ -273,7 +273,7 @@ li {
 }
 
 .copyright span {
-    color: #d8d8e9;
+    color: #91919f;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 300;
